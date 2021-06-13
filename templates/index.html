@@ -1,10 +1,7 @@
-<form method="GET">
-    {{ form }}
-    <input type="submit" value="Submit">
-</form>
-
-<div class="entity">
-    {{ entity_view }}
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus necessitatibus officia laudantium id recusandae corporis voluptate repellat sit pariatur dolore, obcaecati molestias totam quod molestiae! Asperiores eveniet atque consequuntur veritatis!
-    </p>
-</div>
+{% extends 'base.html' %} 
+{% block title %} 
+    Home 
+{% endblock %} 
+{% block content %}
+    <h1>Home Page</h1>
+{% endblock %}
