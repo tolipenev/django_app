@@ -17,11 +17,11 @@ from django.contrib import admin
 from django.urls import path, include
 from apptest.views import form_view
 from django.contrib import admin
-from django.urls import path, include
 from apptest import views as v
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("signup/", v.register, name="register"),
+    path("signup/", v.signup, name="signup"),
     path('', form_view),
+    path('', include("django.contrib.auth.urls")),
 ]

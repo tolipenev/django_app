@@ -14,21 +14,24 @@ def form_view(request):
 
 
 def entity(request):
-    return render(request, 'ent.html')
+    return render(request, 'entities.html')
 
 
 def engagement(request):
-    return render(request, "engage.html")
+    return render(request, "engagements.html")
 
 
-def register(response):
+def signup(response):
     if response.method == "POST":
         form = RegisterForm(response.POST)
         if form.is_valid():
             form.save()
 
-        return redirect("/home")
+        return redirect("/")
     else:
         form = RegisterForm()
 
     return render(response, "signup.html", {"form": form})
+
+def home(response):
+	return render(response, "index.html", {})
