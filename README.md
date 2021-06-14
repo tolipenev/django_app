@@ -33,7 +33,7 @@ $ # Virtualenv modules installation
 $ pipenv shell
 $
 $ # Install modules
-$ pip3 install -r requirements.txt
+$ pip3 install -r pip_requirements.txt
 $
 $ # Create tables
 $ python manage.py makemigrations
