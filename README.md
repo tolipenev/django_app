@@ -15,11 +15,9 @@ Application for models created with Django, Bootstrap4 and Crispy-Forms
 
 <br />
 
-## Deployment
+## Build steps
 
 <br />
-
-> Command Line
 
 ```bash
 $ # Get the code
@@ -55,22 +53,12 @@ $ python manage.py migrate --run-syncdb
 
 <br />
 
-> Docker
 
 The application can be easily executed in a docker container. The steps:
 
-> Get the code
-
-```bash
-$ git clone https://github.com/tolipenev/django_app.git
-$ cd django-app
-```
-
-> Start the app in Docker
 
 ```bash
 $ docker build . ## building the image
-$
 ```
 
 Visit `http://localhost:8000` in your browser. The app should be up & running.

@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7aa14be290208d67e26f2eba0025c32f01f6a18472f5545b3a6b70def57ccb09"
+            "sha256": "d0096ba311f5d621d3c924f46b7b6e833feaa141f95527478a1dcd9585a98f3d"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.9"
+            "python_version": "3.8"
         },
         "sources": [
             {
@@ -79,14 +79,6 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==8.0.1"
-        },
-        "colorama": {
-            "hashes": [
-                "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b",
-                "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"
-            ],
-            "markers": "platform_system == 'Windows'",
-            "version": "==0.4.4"
         },
         "mypy-extensions": {
             "hashes": [
