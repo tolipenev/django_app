@@ -69,10 +69,11 @@ $ cd django-app
 > Start the app in Docker
 
 ```bash
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
+$ docker build . ## building the image
+$
 ```
 
-Visit `http://localhost:5005` in your browser. The app should be up & running.
+Visit `http://localhost:8000` in your browser. The app should be up & running.
 
 <br />
 
